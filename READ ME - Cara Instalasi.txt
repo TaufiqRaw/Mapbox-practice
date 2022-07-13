@@ -1,0 +1,8 @@
+Requirement
+>nodeJs
+**************************************************
+
+Buka CMD dengan root pada folder ini,
+tulis npm install
+setelah npm install selesai, tulis npm run start
+website dapat dibuka pada localhost:3000
