@@ -16,7 +16,7 @@ app.use(express_1.default.static(path_1.default.join(__dirname, process.env.NODE
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use((0, method_override_1.default)('_method'));
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT||3000, () => {
     console.log("listening to port", process.env.PORT);
 });
 app.use("/", web_1.default);

@@ -8,7 +8,8 @@
     "dev": "nodemon src/app.ts",
     "build": "tsc -p .",
     "watch:js": "webpack",
-    "build:webpack" : "webpack"
+    "build:webpack" : "webpack",
+    "migrate" : "npx prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
